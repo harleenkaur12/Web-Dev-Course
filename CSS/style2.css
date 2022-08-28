@@ -1,0 +1,30 @@
+.size{
+    height: 100px;
+    width: 100px;
+}
+.top{ 
+    background-color: #F94892;
+    /* display: inline-block; */
+    /* position: relative;
+    left: 360px; */
+    
+    
+    
+}
+.middle{
+    background-color: #FF7F3F;
+    /* display: inline-block; */
+    /* position: relative;
+    left: 180px; */
+    position: fixed;
+    left: 108px;
+}
+.bottom{
+    background-color: #89CFFD;
+    /* display: inline-block; */
+    position: absolute;
+    left: 206px;
+    top: 210px;
+    
+
+}
