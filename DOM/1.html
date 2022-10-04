@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Document Object Model
+    </h1>
+    <p id="top">
+        Hello
+    </p>
+    <div id="bottom">
+        <p>
+            world
+        </p>
+        <a href="">NAMASTE</a>
+    </div> 
+    <div class="cls">
+        <div class="cls1">
+            This is getelement by class name
+            <a href="www.google.com" target="_parent">BONJOUR</a>
+        </div>
+    </div>
+    <div id="list">
+        <ul>
+            <li>Hello</li>
+            <li>Bonjour</li>
+            <li>NAMASTE</li>
+        </ul>
+    </div>
+    <script>
+        let h=document.querySelectorAll('li');
+        h.forEach(function(data){ data.style.backgroundColor='red'});
+    </script>
+</body>
+
+</html>
